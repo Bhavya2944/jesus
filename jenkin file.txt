@@ -1,0 +1,92 @@
+<template>
+<div>
+<b-row class="header-row">
+<b-col cols="6"><h1>logo<\h1><lb-col>
+<b-col cols="6" class="controls">
+<b-btn class="login-btn"variant="primary">login</b-btn>
+<b-btn class="signup-btn"varient="primary">signup</bn-btn>
+<b-col>
+</brow></div>
+</template>
+<br/><b-container>
+<b-carouse 1
+id="carouse 1"
+v-model="slide"
+interval="4000"
+controls
+indicators
+background="#ababab"
+img-width="1024"
+img-height="480"
+style="text-shadow:1px 1px 2px#333;"
+@sliding-start="one slide start"
+@sliding-end="one slide end">
+<!--text slides with image-->
+<b-carouses-slide
+caption="first slide"
+text="null a vitae elit libero,apharetra argue molllsinterdum"
+img-src="https://picsum.photos/1024/4801?image=52">
+<b-carousel-slide>
+<!--slides with custom text-->
+<b-carousel-slide img-ssrc="https://picsum.photos/1024/4801image=54"
+<h1>hello world1</h1>
+<b-carouse-slide>
+<1-slides with image only-->
+<b-carousre-slide imh-scr="https://picsum.photos/1024/480/image=58"
+<!--slides with img slot-->
+<!--note the classes.d-block and img-fluid to prevent browser.definition-->
+<b-carousel-slide>
+<img>
+slot="img"
+class="d-b;ockimg-fluid w-100"
+width="1024"
+height="480"
+src=https://picsum.photos/1024/47-/?img=55"
+alt="image slot">
+</b-carousel-slides>
+<!--slides with blank fluid image to maintain slide aspect ratio-->
+<b-carousel-slide caption="blank image"image-blank image-alt="blank image">
+<p>
+</b=carousel-slide>
+</b-carousel>
+<br/>
+<b-row>
+<b-col>
+<b-card
+tite1="card title"
+img-src="https://picsum.photos/680/300/?image=35"
+img-art="image"
+img-top
+tag="article"
+style="max-width:20 rem;"
+class="mb-2">
+<b-card-text>
+</b-card>
+</b-col>
+<b-card
+title="card title"
+img-src="https://picsum.photos/680/300/?image=25"
+img-alt="image"
+img-top
+tag="article"
+style="max-width:20 rem;"
+<class="mb-2">
+<b-card-text>
+</b-cardd-text>
+<b-button href="#" variant="primary">go somewhwrwe</b-button>
+</b-card>
+</b-col>
+<b-col>
+<b-card>
+title="card title"
+img-src="https:://picsum.photos/600/300?image=25"
+img-alt="image"
+img-top
+tag="article"
+style="max-width:20 rem;"
+class="mb-2"
+<b-card-text>
+</b-card-text>
+<b-button href="#" variant="primary">gp somewhere</b-button>
+</b-card>
+</b-col>
